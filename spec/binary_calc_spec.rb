@@ -37,4 +37,20 @@ describe Binary_calc do
       end
     end
   end
+  describe ".devide" do
+    context "2 devides 4" do
+      it "gives 2" do
+        bc = Binary_calc.new
+        expect(bc.devide(4, 2)).to eql(2)
+      end
+    end
+  end
+  describe ".operationHandler" do
+    context "something unrelevant comes up" do
+      it "prints I can't do that for you." do
+        bc = Binary_calc.new
+        expect(bc.operationHandler("xxx", 4, 2)).to eql("I can't do that for you.")
+      end
+    end
+  end
 end
