@@ -1,5 +1,5 @@
 # Gemfile
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "rspec"
+gem 'rspec'
 gem 'rubocop', '~> 0.58.2', require: false

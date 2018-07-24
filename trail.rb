@@ -1,1 +1,1 @@
-puts "Hello Mac!"
+puts 'Hello Mac!'
